@@ -1,5 +1,5 @@
 import React from 'react';
-import { useQuery } from '@apollo/client';
+import { useQuery } from '@apollo/react-hooks';
 
 import ProductItem from '../ProductItem';
 import { QUERY_PRODUCTS } from '../../utils/queries';
